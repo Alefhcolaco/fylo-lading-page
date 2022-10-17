@@ -37,7 +37,7 @@ export default function Home() {
         </nav>
       </header>
       <main className='bg-[#181E2A]'>
-        <section className='h-[1166px] bg-[#1C2230]'>
+        <section className='h-[1100px] bg-[#1C2230]'>
           <div className='block m-0 m-auto w-[790px] h-[986px] z-10 relative'>
             <Image src={imageIntro} width={790} height={586} alt="imagem de introdução"/>
             <h1 className='mb-[51px] text-center text-[46.5px] leading-[58px]'>All your files in one secure location,<br /> accessible anywhere.</h1>
@@ -47,7 +47,7 @@ export default function Home() {
           <div className="bg-curvy h-[503px] w-full grow bg-cover relative top-[-320px] z-0 relative">
           </div>
         </section>
-        <section id="features" className='bg-[#181E2A] mb-[164px]'>
+        <section id="features" className='bg-[#181E2A] mb-[164px] mt-[50px]'>
           <div className='w-[966px] h-[223px] block m-0 m-auto flex gap-[145px] mb-[108px]'>
             <div className='relative z-10 w-[403px] h-[223px]'>
               <div className='block w-[92px] h-[85px] m-0 m-auto mb-[35px]'>
