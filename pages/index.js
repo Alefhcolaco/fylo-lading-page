@@ -46,8 +46,6 @@ export default function Home() {
           </div>
           <div className="bg-curvy h-[503px] w-full grow bg-cover relative top-[-320px] z-0 relative">
           </div>
-          <div className='bg-curvy h-[503px] w-full grow bg-cover relative top-[-320px] z-0'>
-          </div>
         </section>
         <section id="features" className='bg-[#181E2A] mb-[164px]'>
           <div className='w-[966px] h-[223px] block m-0 m-auto flex gap-[145px] mb-[108px]'>
