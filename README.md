@@ -1,1 +1,1 @@
-https://fylo-lading-page-nextjs.vercel.app/
+https://fylo-lading-page.vercel.app/
