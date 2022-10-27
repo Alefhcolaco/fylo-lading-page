@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Logo from '/public/logo.svg'
-import Image1 from '/public/bg-curvy-desktop.svg'
 import imageIntro from '/public/image-intro.png'
 import { Button1 } from '../components/Button1';
 import { Button2 } from '../components/Button2';
@@ -25,7 +24,7 @@ import Instagram from '/public/instagram.svg'
 
 export default function Home() {
   return (
-    <div className='grid grid-cols-1 grid-rows-3 grid-rows-[218px_3189px_564px] scroll-smooth'>
+    <div className='grid grid-cols-1 grid-rows-[218px_3189px_564px] scroll-smooth'>
       <header className='bg-[#1C2230] justify-between pr-[87px] pl-[87px] flex items-center'>
         <Image src={Logo} width={193} height={59} alt="Logo do site" />
         <nav>
@@ -38,42 +37,42 @@ export default function Home() {
       </header>
       <main className='bg-[#181E2A]'>
         <section className='h-[1100px] bg-[#1C2230]'>
-          <div className='block m-0 m-auto w-[790px] h-[986px] z-10 relative'>
+          <div className='block m-auto w-[790px] h-[986px] z-10 relative'>
             <Image src={imageIntro} width={790} height={586} alt="imagem de introdução"/>
             <h1 className='mb-[51px] text-center text-[46.5px] leading-[58px]'>All your files in one secure location,<br /> accessible anywhere.</h1>
             <p className='text-center mb-[65px] text-[22px]'>Fylo stores all your most important files in one secure location. <br />Access them wherever you need, share and collaborate with<br /> friends family, and co-workers.</p>
             <Button1 />
           </div>
-          <div className="bg-curvy h-[503px] w-full grow bg-cover relative top-[-320px] z-0 relative">
+          <div className="bg-curvy h-[730px] w-full bg-center grow bg-cover top-[-320px] z-0 relative">
           </div>
         </section>
         <section id="features" className='bg-[#181E2A] mb-[164px]'>
-          <div className='w-[966px] h-[223px] block m-0 m-auto flex gap-[145px] mb-[108px]'>
+          <div className='w-[966px] h-[223px] m-auto flex gap-[145px] mb-[108px]'>
             <div className='relative z-10 w-[403px] h-[223px]'>
-              <div className='block w-[92px] h-[85px] m-0 m-auto mb-[35px]'>
+              <div className='block w-[92px] h-[85px] m-auto mb-[35px]'>
                 <Image src={Access} width={92} height={85} alt="Ícone de um computador e um celular"/>
               </div>
               <h2 className='text-center mb-[16px]'>Access your files, anywhere</h2>
               <p className='text-center text-[15px] leading-[24px]'>The ability to use a smartphone, ablet, or computer<br /> to access your account means your files follow you<br /> everywhere.</p>
             </div>
             <div className='relative z-10 w-[418px] h-[223px]'>
-              <div className='block w-[92px] h-[98px] m-0 m-auto mb-[23px]'>
+              <div className='block w-[92px] h-[98px] m-auto mb-[23px]'>
                 <Image src={Security} width={92} height={98} alt="Ícone de segurança"/>
               </div>
               <h2 className='text-center mb-[16px]'>Security you can trust</h2>
               <p className='text-center text-[15px] leading-[24px]'>2-factor authentication and user-controlled encryption are<br /> just a couple of the security features we allow to help<br /> secure your files.</p>
             </div>
           </div>
-          <div className='w-[966px] h-[215px] block m-0 m-auto flex gap-[145px]'>
+          <div className='w-[966px] h-[215px] m-auto flex gap-[145px]'>
             <div className='relative z-10 w-[403px] h-[215px]'>
-              <div className='block w-[93px] h-[78px] m-0 m-auto mb-[38px]'>
+              <div className='block w-[93px] h-[78px] m-auto mb-[38px]'>
                 <Image src={Clock} width={93} height={78} alt="Ícone de um relógio"/>
               </div>
               <h2 className='text-center mb-[14px]'>Real-time collaboration</h2>
               <p className='text-center text-[15px] leading-[24px]'>Securely share files and folders with friends, family and<br /> colleagues for live collaboration. No email attachments<br /> required.</p>
             </div>
             <div className='relative z-10 w-[418px] h-[215px]'>
-              <div className='block w-[101px] h-[72px] m-0 m-auto mb-[43px]'>
+              <div className='block w-[101px] h-[72px] m-auto mb-[43px]'>
                 <Image src={AnyFile} width={101} height={72} alt="Ícone de uma pasta"/>
               </div>
               <h2 className='text-center mb-[12.5px]'>Store any type of file</h2>
@@ -94,7 +93,7 @@ export default function Home() {
               <Button3 />
             </div>
           </div>
-          <div className='w-[1283px] z-10 relative mb-[224px] block m-0 m-auto'>
+          <div className='w-[1283px] z-10 relative mb-[224px] block m-auto'>
             <div className='w-[61px] h-[49px] z-0 relative top-[15px]'>
               <Image src={Aspas} width={61} height={49} alt="Ícone de aspas"/>
             </div>
@@ -132,10 +131,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <div className='bg-[#1C2230] w-[946px] h-[299px] m-0 m-auto block relative rounded-[10px]'>
+        <div className='bg-[#1C2230] w-[946px] h-[299px] m-auto block relative rounded-[10px]'>
           <h2 className='text-[36.8px] text-center pt-[46px] mb-[16px]'>Get early access today</h2>
-          <p className='text-center text-[14.5px] w-[678px] block m-auto m-0 mb-[40px]'>It only takes a minute sto sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-          <div id="sign-in" className='w-[780px] block m-0 m-auto'>
+          <p className='text-center text-[14.5px] w-[678px] block m-auto mb-[40px]'>It only takes a minute sto sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+          <div id="sign-in" className='w-[780px] block m-auto'>
             <input placeholder='email@example.com' type="text" className='rounded-[24px] w-[484px] h-[52px] pl-[42px] text-[#000000] mr-[32px]' />
             <Button2 />
           </div>
