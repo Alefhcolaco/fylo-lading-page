@@ -9,6 +9,7 @@ module.exports = {
       backgroundImage: {
         'curvy': "url('/bg-curvy-desktop.svg')",
         'arrow': "url('/icon-arrow.svg')",
+        'arrow-white': "url('/icon-arrow-white.svg')",
       }
     },
   },
