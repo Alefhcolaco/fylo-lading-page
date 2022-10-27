@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'curvy': "url('../public/bg-curvy-desktop.svg')",
+        'curvy': "url('/bg-curvy-desktop.svg')",
+        'arrow': "url('/icon-arrow.svg')",
       }
     },
   },
